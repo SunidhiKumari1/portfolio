@@ -71,7 +71,7 @@ export default function Skills() {
           </div>
 
           {/* Professional Skills */}
-          <div className="col-lg-6">
+          <div className="col-lg-5">
             <div className="skill-card h-100 p-4">
               <h4 className="text-info mb-4">Professional Skills</h4>
 
