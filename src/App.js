@@ -1,5 +1,4 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import About from './Components/About';
@@ -9,18 +8,17 @@ import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 
 function App() {
+  document.body.style.background = "linear-gradient(135deg,#0f172a,#1e293b)";
   return (
-    <Router>
-        <Navbar/>
-        <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/about" element={<About/>}/>
-          <Route path="/skills" element={<Skills/>}/>
-          <Route path="/projects" element={<Projects/>}/>
-          <Route path="/contact" element={<Contact/>}/>
-        </Routes>
-        <Footer/>
-      </Router>
+    <div className="d-flex flex-column min-vh-100">
+      <Navbar/>
+      <Home/>
+      <About/>
+      <Skills/>
+      <Projects/>
+      <Contact/>
+      <Footer/>
+    </div>
   );
 }
 

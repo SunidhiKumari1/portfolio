@@ -1,13 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
-    <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar sticky-top navbar-expand-lg navbar-info bg-info">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/">
+        <a className="navbar-brand" href="#">
           Portfolio
-        </Link>
+        </a>
 
         <button
           className="navbar-toggler"
@@ -24,33 +23,33 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto">
             <li className="nav-item">
-              <Link className="nav-link" to="/">
+              <a className="nav-link" href="#">
                 Home
-              </Link>
+              </a>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="/about">
+              <a className="nav-link" href="#about">
                 About
-              </Link>
+              </a>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="/skills">
+              <a className="nav-link" href="#skills">
                 Skills
-              </Link>
+              </a>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="/projects">
+              <a className="nav-link" href="#projects">
                 Projects
-              </Link>
+              </a>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="/contact">
+              <a className="nav-link" href="#contact">
                 Contact
-              </Link>
+              </a>
             </li>
           </ul>
         </div>

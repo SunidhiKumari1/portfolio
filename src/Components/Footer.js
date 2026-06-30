@@ -4,7 +4,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 export default function Footer() {
   return (
-    <footer className="bg-dark text-light py-4 mt-5 fixed-bottom">
+    <footer className="bg-dark text-light py-4 mt-5">
       <div className="container text-center">
         <div className="row">
           {/* Contact */}
