@@ -7,7 +7,6 @@ export default function About() {
       className="py-5"
       style={{
         minHeight: "100vh",
-        background: "linear-gradient(135deg,#0f172a,#1e293b)",
         color: "white",
       }}
     >
@@ -28,7 +27,7 @@ export default function About() {
             }}
           ></div>
           <p
-  className="text-light mx-auto mb-3"
+  className="text-light mx-auto mb-4 fs-5 px-5"
 >
   I am Sunidhi Kumari, a final-year Dual Degree student in
    Computer Science & Engineering with Data Science at
@@ -42,7 +41,7 @@ export default function About() {
           <div className="col-lg-8">
 
             <div
-              className="p-4 rounded-4 shadow-lg"
+              className="p-5 rounded-4 shadow-lg m-2 fs-5"
               style={{
                 background: "rgba(255,255,255,0.05)",
                 border: "1px solid rgba(13,202,240,.3)",
@@ -64,7 +63,7 @@ export default function About() {
                 <div className="col-md-6">
   <div className="d-flex flex-wrap align-items-center">
     <strong className="text-info me-2">🏫 College:</strong>
-    <span className="text-light">NIT Patna</span>
+    <span className="text-light">National Institute of Technology Patna</span>
   </div>
 </div>
 
