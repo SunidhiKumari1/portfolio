@@ -7,7 +7,7 @@ export default function Home() {
       className="d-flex align-items-center"
       style={{
         minHeight: "100vh",
-        backgroundColor: "#151515"
+        backgroundColor: "#151515",
       }}
     >
       <div className="container">
@@ -76,9 +76,9 @@ export default function Home() {
                 style={{
                   width: "100%",
                   height: "100%",
-    maxWidth: "360px",
-    aspectRatio: "1 / 1",
-    objectFit: "cover",
+                  maxWidth: "360px",
+                  aspectRatio: "1 / 1",
+                  objectFit: "cover",
                   boxShadow: "0 0 20px 3px #00d9ff",
                 }}
               />

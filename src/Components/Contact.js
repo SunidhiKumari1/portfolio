@@ -8,11 +8,10 @@ export default function Contact() {
       style={{
         minHeight: "100vh",
         color: "white",
-        backgroundColor: "#1b1b1b"
+        backgroundColor: "#1b1b1b",
       }}
     >
       <div className="container py-5">
-
         {/* Heading */}
         <div className="text-center mb-5">
           <h2 className="display-5 fw-bold">
@@ -30,16 +29,14 @@ export default function Contact() {
           ></div>
 
           <p className="text-light fs-5">
-            Have a project in mind or want to connect?
-            I'd love to hear from you.
+            Have a project in mind or want to connect? I'd love to hear from
+            you.
           </p>
         </div>
 
         <div className="row g-5 align-items-stretch">
-
           {/* Contact Information */}
           <div className="col-lg-5">
-
             <div
               className="h-100 p-5 rounded-4"
               style={{
@@ -47,36 +44,26 @@ export default function Contact() {
                 border: "1px solid rgba(13,202,240,.3)",
               }}
             >
-
-              <h3 className="text-info mb-4">
-                Get In Touch
-              </h3>
+              <h3 className="text-info mb-4">Get In Touch</h3>
 
               <p className="text-light mb-4">
-                I'm currently looking for internship and
-                full-time Software Engineering opportunities.
-                Feel free to reach out!
+                I'm currently looking for internship and full-time Software
+                Engineering opportunities. Feel free to reach out!
               </p>
 
               <div className="mb-4">
                 <h6 className="text-info">📧 Email</h6>
-                <p className="text-light mb-0">
-                  sunidhik471@gmail.com
-                </p>
+                <p className="text-light mb-0">sunidhik471@gmail.com</p>
               </div>
 
               <div className="mb-4">
                 <h6 className="text-info">📱 Phone</h6>
-                <p className="text-light mb-0">
-                  +91 XXXXX XXX23
-                </p>
+                <p className="text-light mb-0">+91 XXXXX XXX23</p>
               </div>
 
               <div className="mb-4">
                 <h6 className="text-info">📍 Location</h6>
-                <p className="text-light mb-0">
-                  Patna, Bihar, India
-                </p>
+                <p className="text-light mb-0">Patna, Bihar, India</p>
               </div>
 
               <div className="mb-4">
@@ -102,14 +89,11 @@ export default function Contact() {
                   SunidhiKumari1
                 </a>
               </div>
-
             </div>
-
           </div>
 
           {/* Contact Form */}
           <div className="col-lg-7">
-
             <div
               className="p-5 rounded-4 "
               style={{
@@ -117,13 +101,9 @@ export default function Contact() {
                 border: "1px solid rgba(13,202,240,.3)",
               }}
             >
-
               <form>
-
                 <div className="mb-4">
-                  <label className="form-label text-info">
-                    Full Name
-                  </label>
+                  <label className="form-label text-info">Full Name</label>
 
                   <input
                     type="text"
@@ -133,9 +113,7 @@ export default function Contact() {
                 </div>
 
                 <div className="mb-4">
-                  <label className="form-label text-info">
-                    Email Address
-                  </label>
+                  <label className="form-label text-info">Email Address</label>
 
                   <input
                     type="email"
@@ -145,9 +123,7 @@ export default function Contact() {
                 </div>
 
                 <div className="mb-4">
-                  <label className="form-label text-info">
-                    Message
-                  </label>
+                  <label className="form-label text-info">Message</label>
 
                   <textarea
                     rows="6"
@@ -162,15 +138,10 @@ export default function Contact() {
                 >
                   Send Message
                 </button>
-
               </form>
-
             </div>
-
           </div>
-
         </div>
-
       </div>
     </section>
   );

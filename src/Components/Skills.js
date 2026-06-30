@@ -14,19 +14,31 @@ export default function Skills() {
   ];
 
   const technologies = [
-    "C++", "Python", "HTML5", "CSS3", "JavaScript",
-    "Bootstrap", "React.js", "Node.js", "Express.js",
-    "MongoDB", "MySQL", "Git", "GitHub",
+    "C++",
+    "Python",
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "Bootstrap",
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "MySQL",
+    "Git",
+    "GitHub",
   ];
 
   return (
-    <section id="skills" className="skills-section py-5" style={{
-      minHeight: "100vh", 
-      backgroundColor: "#181818"
-      }}>
+    <section
+      id="skills"
+      className="skills-section py-5"
+      style={{
+        minHeight: "100vh",
+        backgroundColor: "#181818",
+      }}
+    >
       <div className="container">
-
-        {/* Heading (MATCH PROJECT STYLE) */}
         <div className="text-center mb-5">
           <h2 className="section-title text-white fw-bold">
             My <span className="text-info">Skills</span>
@@ -49,7 +61,6 @@ export default function Skills() {
 
         {/* Skill Cards */}
         <div className="row g-4">
-
           {/* Technical Skills */}
           <div className="col-lg-6 my-2">
             <div className="skill-card h-100 p-4 ">

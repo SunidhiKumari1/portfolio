@@ -1,8 +1,11 @@
-import React from 'react'
+import React from "react";
 
 export default function Navbar() {
   return (
-    <nav className="navbar sticky-top navbar-expand-lg navbar-dark" style={{backgroundColor: "#242424"}}>
+    <nav
+      className="navbar sticky-top navbar-expand-lg navbar-dark"
+      style={{ backgroundColor: "#242424" }}
+    >
       <div className="container-fluid">
         <a className="navbar-brand" href="#home">
           Portfolio
@@ -55,5 +58,5 @@ export default function Navbar() {
         </div>
       </div>
     </nav>
-  )
+  );
 }
