@@ -20,7 +20,10 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="skills-section py-5">
+    <section id="skills" className="skills-section py-5" style={{
+      minHeight: "100vh", 
+      backgroundColor: "#181818"
+      }}>
       <div className="container">
 
         {/* Heading (MATCH PROJECT STYLE) */}
@@ -48,8 +51,8 @@ export default function Skills() {
         <div className="row g-4">
 
           {/* Technical Skills */}
-          <div className="col-lg-6">
-            <div className="skill-card h-100 p-4">
+          <div className="col-lg-6 my-2">
+            <div className="skill-card h-100 p-4 ">
               <h4 className="text-info mb-4">Technical Skills</h4>
 
               {technicalSkills.map((skill, idx) => (
@@ -71,7 +74,7 @@ export default function Skills() {
           </div>
 
           {/* Professional Skills */}
-          <div className="col-lg-5">
+          <div className="col-lg-5 ">
             <div className="skill-card h-100 p-4">
               <h4 className="text-info mb-4">Professional Skills</h4>
 

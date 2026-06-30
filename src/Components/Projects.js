@@ -5,8 +5,12 @@ import project3Image from './project3Image.png'
 
 export default function Projects() {
   return (
-    <section className="py-5 px-5" id="projects">
-      <div className="container">
+    <section className="py-5 px-5" id="projects" style={{
+      minHeight: "100vh", 
+      color: "white",
+      backgroundColor: "#101010"
+      }}>
+      <div className="container" >
 
         <div className="text-center mb-5 text-light">
           <h2 className="display-5 fw-bold">

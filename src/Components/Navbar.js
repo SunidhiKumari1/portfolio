@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar sticky-top navbar-expand-lg navbar-dark" style={{backgroundColor: "#242424"}}>
       <div className="container-fluid">
         <a className="navbar-brand" href="#home">
           Portfolio

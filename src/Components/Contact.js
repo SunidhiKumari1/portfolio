@@ -8,6 +8,7 @@ export default function Contact() {
       style={{
         minHeight: "100vh",
         color: "white",
+        backgroundColor: "#1b1b1b"
       }}
     >
       <div className="container py-5">
@@ -40,11 +41,10 @@ export default function Contact() {
           <div className="col-lg-5">
 
             <div
-              className="h-100 p-5 rounded-4 shadow-lg"
+              className="h-100 p-5 rounded-4"
               style={{
-                background: "rgba(255,255,255,.05)",
+                background: "rgba(20, 20, 20, 0.69)",
                 border: "1px solid rgba(13,202,240,.3)",
-                backdropFilter: "blur(10px)",
               }}
             >
 
@@ -111,11 +111,10 @@ export default function Contact() {
           <div className="col-lg-7">
 
             <div
-              className="p-5 rounded-4 shadow-lg"
+              className="p-5 rounded-4 "
               style={{
-                background: "rgba(255,255,255,.05)",
+                background: "rgba(20, 20, 20, 0.69)",
                 border: "1px solid rgba(13,202,240,.3)",
-                backdropFilter: "blur(10px)",
               }}
             >
 

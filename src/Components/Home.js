@@ -7,6 +7,7 @@ export default function Home() {
       className="d-flex align-items-center"
       style={{
         minHeight: "100vh",
+        backgroundColor: "#151515"
       }}
     >
       <div className="container">
@@ -23,7 +24,7 @@ export default function Home() {
               Aspiring <span className="text-info">Software Engineer</span>
             </h3>
 
-            <p className="text-light-emphasis fs-5">
+            <p className="text-light fs-5">
               Computer Science student at NIT Patna passionate about Full Stack
               Development, Problem Solving, and building scalable applications
               using modern technologies.
@@ -73,10 +74,11 @@ export default function Home() {
                 alt="Sunidhi"
                 className="img-fluid rounded-circle "
                 style={{
-                  width: "360px",
-                  height: "360px",
-                  objectFit: "cover",
-                  borderRadius: "50%",
+                  width: "100%",
+                  height: "100%",
+    maxWidth: "360px",
+    aspectRatio: "1 / 1",
+    objectFit: "cover",
                   boxShadow: "0 0 20px 3px #00d9ff",
                 }}
               />

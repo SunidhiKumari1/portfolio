@@ -8,7 +8,7 @@ import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 
 function App() {
-  document.body.style.background = "#02081f";
+  document.body.style.backgroundColor = "#1b1b1b";
   return (
     <div className="d-flex flex-column min-vh-100">
       <Navbar/>

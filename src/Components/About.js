@@ -8,6 +8,7 @@ export default function About() {
       style={{
         minHeight: "100vh",
         color: "white",
+        backgroundColor: "#121111"
       }}
     >
       <div className="container py-5">
