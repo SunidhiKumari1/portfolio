@@ -14,7 +14,7 @@ export default function About() {
 
         {/* Heading */}
         <div className="text-center mb-5">
-          <h2 className="display-4 fw-bold">
+          <h2 className="display-5 fw-bold">
             About <span className="text-info">Me</span>
           </h2>
           <div
@@ -41,7 +41,7 @@ export default function About() {
           <div className="col-lg-8">
 
             <div
-              className="p-5 rounded-4 shadow-lg m-2 fs-5"
+              className="p-5 rounded-4 shadow-lg m-2"
               style={{
                 background: "rgba(255,255,255,0.05)",
                 border: "1px solid rgba(13,202,240,.3)",

@@ -14,7 +14,7 @@ export default function Contact() {
 
         {/* Heading */}
         <div className="text-center mb-5">
-          <h2 className="display-4 fw-bold">
+          <h2 className="display-5 fw-bold">
             Contact <span className="text-info">Me</span>
           </h2>
 
