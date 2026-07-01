@@ -45,7 +45,7 @@ export default function Skills() {
           </h2>
 
           <div
-            className="mx-auto my-3 "
+            className="mx-auto my-3"
             style={{
               width: "170px",
               height: "4px",
@@ -60,10 +60,10 @@ export default function Skills() {
         </div>
 
         {/* Skill Cards */}
-        <div className="row g-4">
+        <div className="row g-4 px-2">
           {/* Technical Skills */}
-          <div className="col-lg-6 my-2">
-            <div className="skill-card h-100 p-4 ">
+          <div className="col-lg-6">
+            <div className="skill-card h-100 p-4 my-3">
               <h4 className="text-info mb-4">Technical Skills</h4>
 
               {technicalSkills.map((skill, idx) => (
@@ -85,8 +85,8 @@ export default function Skills() {
           </div>
 
           {/* Professional Skills */}
-          <div className="col-lg-5 ">
-            <div className="skill-card h-100 p-4">
+          <div className="col-lg-5">
+            <div className="skill-card h-100 p-4 my-3">
               <h4 className="text-info mb-4">Professional Skills</h4>
 
               {professionalSkills.map((skill, idx) => (
@@ -109,7 +109,7 @@ export default function Skills() {
         </div>
 
         {/* Technologies */}
-        <div className="mt-5">
+        <div className="mt-5 px-2">
           <h3 className="text-center text-white fw-bold mb-4">
             Technologies & Tools
           </h3>

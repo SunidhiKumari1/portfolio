@@ -6,7 +6,7 @@ import project3Image from "./project3Image.png";
 export default function Projects() {
   return (
     <section
-      className="py-5 "
+      className="py-5"
       id="projects"
       style={{
         minHeight: "100vh",
