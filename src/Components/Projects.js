@@ -11,7 +11,7 @@ export default function Projects() {
       style={{
         minHeight: "100vh",
         color: "white",
-        backgroundColor: "#101010",
+        backgroundColor: "#101010f5",
       }}
     >
       <div className="container">
